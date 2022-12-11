@@ -1,0 +1,80 @@
+/*
+* Licensed to the Apache Software Foundation (ASF) under one or more
+* contributor license agreements.  See the NOTICE file distributed with
+* this work for additional information regarding copyright ownership.
+* The ASF licenses this file to You under the Apache License, Version 2.0
+* (the "License"); you may not use this file except in compliance with
+* the License.  You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+body[fds] td-chips .mat-form-field-label-wrapper::after {
+    content: '\f0b0';
+    display: inline-table;
+    font-family: FontAwesome;
+    float: right;
+    margin: 9px 10px 0 0;
+    color: $grey3;
+}
+
+body[fds] td-chips {
+    input.mat-input-element,
+    textarea.mat-input-element {
+        /* subtract 42 (10 for padding-left, 30 for padding right, 2 the 1px border of the input on the left & right) */
+        width: calc(100% - 42px); // account for padding and border as to line up with the underline
+        padding-right: 30px; // Don't allow the text to overlap the filter icon
+    }
+}
+
+body[fds] .mat-basic-chip.td-chip-after-pad {
+    padding: 4px 12px;
+}
+
+body[fds] .mat-basic-chip .td-chip {
+    font-size: 10px;
+    min-height: unset;
+    line-height: 20px;
+    position: relative;
+    top: -3px;
+}
+
+body[fds] .td-chip span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 65px;
+    font-size: 10px;
+}
+
+body[fds] .td-chip-disabled .td-chip {
+    padding: 0 0 0 12px;
+}
+
+body[fds] td-chips .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0;
+    border-top: 0;
+}
+
+body[fds] td-chips .mat-form-field {
+    top: 12px;
+}
+
+body[fds] .mat-basic-chip mat-icon.td-chip-removal {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+body[fds] mat-form-field.td-chips-form-field.mat-input-container {
+    width: unset;
+}
+
+body[fds] mat-form-field.td-chips-form-field.mat-form-field.mat-form-field-disabled {
+    display: none;
+}

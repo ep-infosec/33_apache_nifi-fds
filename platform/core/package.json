@@ -1,0 +1,62 @@
+{
+    "//": "Licensed to the Apache Software Foundation (ASF) under one or more",
+    "//": "contributor license agreements.  See the NOTICE file distributed with",
+    "//": "this work for additional information regarding copyright ownership.",
+    "//": "The ASF licenses this file to You under the Apache License, Version 2.0",
+    "//": "(the \"License\"); you may not use this file except in compliance with",
+    "//": "the License.  You may obtain a copy of the License at",
+    "//": "",
+    "//": "http://www.apache.org/licenses/LICENSE-2.0",
+    "//": "",
+    "//": "Unless required by applicable law or agreed to in writing, software",
+    "//": "distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "//": "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "//": "See the License for the specific language governing permissions and",
+    "//": "limitations under the License.",
+    "name": "@nifi-fds/core",
+    "version": "0.4.0-SNAPSHOT",
+    "description": "The Apache NiFi Flow Design System module is an atomic reusable platform providing consistent set of UI/UX components for open source friendly web applications to consume.",
+    "keywords": [
+        "angular",
+        "material",
+        "material design",
+        "components",
+        "covalent",
+        "reusable",
+        "nifi-fds",
+        "flow design system"
+    ],
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apache/nifi-fds.git"
+    },
+    "contributors": [
+        "Scott Aslan <scottyaslan@gmail.com>"
+    ],
+    "bugs": {
+        "url": "https://github.com/apache/nifi-fds/issues"
+    },
+    "license": "Apache-2.0",
+    "peerDependencies": {
+        "@angular/animations": "11.2.14",
+        "@angular/cdk": "11.2.13",
+        "@angular/common": "11.2.14",
+        "@angular/compiler": "11.2.14",
+        "@angular/core": "11.2.14",
+        "@angular/flex-layout": "11.0.0-beta.33",
+        "@angular/forms": "11.2.14",
+        "@angular/material": "11.2.13",
+        "@angular/platform-browser": "11.2.14",
+        "@angular/platform-browser-dynamic": "11.2.14",
+        "@angular/router": "11.2.14",
+        "@covalent/core": "3.1.2",
+        "detect-libc": "1.0.3",
+        "font-awesome": "4.7.0",
+        "jquery": "3.5.1",
+        "roboto-fontface": "0.10.0",
+        "rxjs": "6.6.7",
+        "zone.js": "0.11.4"
+    },
+    "dependencies": {}
+}
